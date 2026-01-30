@@ -5,7 +5,7 @@ import os
 DB_USER = "FU"
 DB_PASSWORD = "123"
 DB_DSN = "localhost:1521/XE" # Explicitly including port 1521
-oracledb.init_oracle_client()
+
 try:
     # Enable Thick Mode for older Oracle versions (like 11g)
     oracledb.init_oracle_client()
